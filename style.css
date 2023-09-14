@@ -1,0 +1,94 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: auto;
+    max-width: 500px;
+    border-width: 5px;
+    border-color: #f24b2d; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+
+header.startup {
+    background-repeat: repeat;
+  background-position: center;
+  background-image: url("sushi_waste.jpg");
+    background-blend-mode: lighten;
+  background-size: auto;
+  height: 100%;
+}
+.info_us{
+    color: rgb(5, 5, 5);
+}
+
+header.startup hr {
+  margin-top: 100px;
+  margin-bottom: 30px; 
+}
+.info_us, ul{
+    font-weight: 700;
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(33, 31, 31, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn  {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+.announcement{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+.box {
+    font-weight: 700;
+    border-radius: 300px;
+    font-family: 'Montserrat', sans-serif;
+    border-color: rgba(241, 244, 247,0.3);
+  }
+
+.box-primary {
+    background-color: rgba(238, 229, 229, 0.3);
+    /* border-color: rgba(238, 229, 229, 0.3);  */
+}
+  
